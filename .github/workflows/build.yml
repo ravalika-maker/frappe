@@ -8,7 +8,7 @@ on:
     paths:
       - 'src/apps.json'
       - 'frappe_docker/images/**'
-      - '.github/workflows/docker-build.yml'
+      - '.github/workflows/build.yml'
   pull_request:
     branches:
       - main
